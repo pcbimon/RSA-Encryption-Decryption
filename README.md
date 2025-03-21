@@ -47,7 +47,10 @@ This project provides a graphical user interface (GUI) for encrypting and decryp
     - **Generate Keys**: Use the 'Generate Keys' tab to create a new RSA(3072bits) key pair.
     - **Encrypt Message**: Enter the message to be encrypted and select the public key in the 'Encrypt' tab.
     - **Decrypt Message**: Enter the encrypted message and select the private key in the 'Decrypt' tab.
-
+3. **Build GUI to EXE (For Windows)**
+    ```bash
+    pyinstaller --onefile gui.py
+    ```
 ### Main Components
 
 - **gui.py**: Defines the graphical user interface using `tkinter`.
